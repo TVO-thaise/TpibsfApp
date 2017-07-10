@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p"
+    tools:context="com.example.samsung.tpibsfapp.MainActivity2Menu">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU - Selecione uma opção:"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+
+        />
+    <Button
+        android:id="@+id/btnPib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIBSF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnAtiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATIVIDADES"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MINISTÉRIO DE MÚSICA"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnCelula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CÉLULAS"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+
+
+
+</LinearLayout>
